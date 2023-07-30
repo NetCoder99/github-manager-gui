@@ -1,0 +1,14 @@
+html { font-size: 10px; }
+
+:root {
+  --bs-body-font-size: 1rem;  /* Overwrite this variable */
+  font-size: var(--bs-body-font-size);
+}
+
+.navbar-bg {
+  background-color: green !important;
+}
+.navbar-bg a {
+  color: white;
+  font-weight: bold;
+}
